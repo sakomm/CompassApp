@@ -16,8 +16,9 @@ import com.example.comapassapp.R;
  */
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
+    //added R.string.tabtextN here to allow acces to the tab
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2,R.string.tab_text_3};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
@@ -38,9 +39,10 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         return mContext.getResources().getString(TAB_TITLES[position]);
     }
 
+    //needs to be updated after adding new pages
     @Override
     public int getCount() {
         // Show 2 total pages.
-        return 2;
+        return 3;
     }
 }
