@@ -3,4 +3,5 @@
     <string name="tab_text_1">Instructions</string>
     <string name="tab_text_2">Compass</string>
     <string name="tab_text_3">About us</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
