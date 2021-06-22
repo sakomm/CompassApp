@@ -6,4 +6,5 @@ The goal of this project was to create an app that can be used as a sort of wayp
 
 Done using the phones internal Magnetometer and GPS as well as the usage of the google maps API
 
-![image](https://user-images.githubusercontent.com/55466413/120252347-46734b80-c252-11eb-83fd-e05040e5229c.png)
+![image](https://user-images.githubusercontent.com/55466413/122843604-d47ca800-d2cd-11eb-9779-9512ca0bec9c.png)
+
