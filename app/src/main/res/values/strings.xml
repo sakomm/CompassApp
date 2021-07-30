@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Compass App</string>
+    <string name="app_name"><b>WayFinder</b></string>
     <string name="tab_text_1">Instructions</string>
     <string name="tab_text_2">Compass</string>
     <string name="tab_text_3">About us</string>
