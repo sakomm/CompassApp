@@ -26,6 +26,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         mContext = context;
     }
 
+    //Case switch placed here to control fragments
     @Override
     public Fragment getItem(int position) {
         // getItem is called to instantiate the fragment for the given page.
