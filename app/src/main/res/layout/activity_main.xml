@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/Theme.ComapassApp.AppBarOverlay">
@@ -26,9 +27,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
+            android:clickable="true"
+            android:hapticFeedbackEnabled="true"
+            android:visibility="visible"
             app:tabIndicatorColor="#000000"
             app:tabSelectedTextColor="@color/white"
-            app:tabTextColor="@color/black" />
+            app:tabTextColor="@color/black"
+            tools:visibility="visible" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.viewpager.widget.ViewPager
