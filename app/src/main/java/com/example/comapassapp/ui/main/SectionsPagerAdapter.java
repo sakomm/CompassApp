@@ -26,6 +26,8 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         mContext = context;
     }
 
+
+    //This is what will be used to determine the frament to return and how we will be able to change content by page
     @Override
     public Fragment getItem(int position) {
         // getItem is called to instantiate the fragment for the given page.
